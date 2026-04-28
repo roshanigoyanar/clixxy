@@ -63,3 +63,4 @@ Visit [http://localhost:3000](http://localhost:3000) to view the app!
 ## 🔐 Notes on Auth Proxy
 In environments or specific countries where ISPs intentionally block default Supabase subdomains (`*.supabase.co`), Clixy uses an elegant built-in Next.js Rewrite rule (`next.config.ts`) to securely proxy `yourwebsite.com/api/supabase` directly to your backend, fixing email verification workflows that would normally throw DNS failures.
 # clixxy
+# clixxy

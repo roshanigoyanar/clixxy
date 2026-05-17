@@ -1,7 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  // Allow image optimization from Supabase
+output: 'export',
   images: {
     remotePatterns: [
       {
@@ -41,5 +41,7 @@ const nextConfig: NextConfig = {
     ];
   },
 };
+
+
 
 export default nextConfig;

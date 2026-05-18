@@ -1,0 +1,31 @@
+
+> clixy@0.1.0 build
+> next build
+
+unhandledRejection Error: Cannot find module './cjs/react.production.js'
+Require stack:
+- /Users/therajatdua/Downloads/roshni_clixxy/node_modules/react/index.js
+- /Users/therajatdua/Downloads/roshni_clixxy/node_modules/next/dist/server/app-render/dynamic-rendering.js
+- /Users/therajatdua/Downloads/roshni_clixxy/node_modules/next/dist/server/node-environment-extensions/io-utils.js
+- /Users/therajatdua/Downloads/roshni_clixxy/node_modules/next/dist/server/node-environment-extensions/random.js
+- /Users/therajatdua/Downloads/roshni_clixxy/node_modules/next/dist/server/node-environment.js
+- /Users/therajatdua/Downloads/roshni_clixxy/node_modules/next/dist/build/utils.js
+- /Users/therajatdua/Downloads/roshni_clixxy/node_modules/next/dist/build/analysis/get-page-static-info.js
+- /Users/therajatdua/Downloads/roshni_clixxy/node_modules/next/dist/build/route-discovery.js
+- /Users/therajatdua/Downloads/roshni_clixxy/node_modules/next/dist/build/index.js
+- /Users/therajatdua/Downloads/roshni_clixxy/node_modules/next/dist/cli/next-build.js
+    at ignore-listed frames {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/therajatdua/Downloads/roshni_clixxy/node_modules/react/index.js',
+    '/Users/therajatdua/Downloads/roshni_clixxy/node_modules/next/dist/server/app-render/dynamic-rendering.js',
+    '/Users/therajatdua/Downloads/roshni_clixxy/node_modules/next/dist/server/node-environment-extensions/io-utils.js',
+    '/Users/therajatdua/Downloads/roshni_clixxy/node_modules/next/dist/server/node-environment-extensions/random.js',
+    '/Users/therajatdua/Downloads/roshni_clixxy/node_modules/next/dist/server/node-environment.js',
+    '/Users/therajatdua/Downloads/roshni_clixxy/node_modules/next/dist/build/utils.js',
+    '/Users/therajatdua/Downloads/roshni_clixxy/node_modules/next/dist/build/analysis/get-page-static-info.js',
+    '/Users/therajatdua/Downloads/roshni_clixxy/node_modules/next/dist/build/route-discovery.js',
+    '/Users/therajatdua/Downloads/roshni_clixxy/node_modules/next/dist/build/index.js',
+    '/Users/therajatdua/Downloads/roshni_clixxy/node_modules/next/dist/cli/next-build.js'
+  ]
+}

@@ -60,10 +60,14 @@ npm run dev
 
 Visit [http://localhost:3000](http://localhost:3000) to view the app!
 
+## 🚀 Deploying to Vercel (Important)
+
+When deploying Clixy to Vercel, you **must** ensure your Supabase environment variables are available during the build step. 
+
+1. Go to your Vercel Project Dashboard.
+2. Navigate to **Settings** > **Environment Variables**.
+3. Add `NEXT_PUBLIC_SUPABASE_URL` and `NEXT_PUBLIC_SUPABASE_ANON_KEY`. Make sure they are selected for **Production**, **Preview**, and **Development** environments.
+4. **Trigger a Redeploy!** Because Clixy dynamically creates proxy rewrites in `next.config.ts` during build time based on these variables, simply saving them in Vercel without triggering a new build will result in a silently failing application (e.g. 404 errors during login).
+
 ## 🔐 Notes on Auth Proxy
 In environments or specific countries where ISPs intentionally block default Supabase subdomains (`*.supabase.co`), Clixy uses an elegant built-in Next.js Rewrite rule (`next.config.ts`) to securely proxy `yourwebsite.com/api/supabase` directly to your backend, fixing email verification workflows that would normally throw DNS failures.
-# clixxy
-# clixxy
-# clixxy
-# clixxy
-# clixxy
